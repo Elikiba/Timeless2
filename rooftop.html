@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooftop Bar - Timeless Luxury</title>
+    <link rel="icon" type="image/svg+xml" href="media/logo-t.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="logo-animation">
+                <svg width="80" height="80" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="23" stroke="#FFDF00" stroke-width="2" fill="none" class="logo-circle"/>
+                    <path d="M15 20h20M15 25h20M15 30h20" stroke="#FFDF00" stroke-width="1.5" stroke-linecap="round" class="logo-lines"/>
+                    <circle cx="25" cy="25" r="8" stroke="#FFDF00" stroke-width="1" fill="none" class="logo-inner"/>
+                    <text x="25" y="42" text-anchor="middle" fill="#FFDF00" font-size="6" font-family="serif">TL</text>
+                </svg>
+            </div>
+            <div class="loading-text">
+                <span class="loading-letter">R</span>
+                <span class="loading-letter">O</span>
+                <span class="loading-letter">O</span>
+                <span class="loading-letter">F</span>
+                <span class="loading-letter">T</span>
+                <span class="loading-letter">O</span>
+                <span class="loading-letter">P</span>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="23" stroke="#FFDF00" stroke-width="2" fill="none"/>
+                    <path d="M15 20h20M15 25h20M15 30h20" stroke="#FFDF00" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="25" cy="25" r="8" stroke="#FFDF00" stroke-width="1" fill="none"/>
+                    <text x="25" y="42" text-anchor="middle" fill="#FFDF00" font-size="6" font-family="serif">TL</text>
+                </svg>
+                <span class="logo-text">Timeless Luxury</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="restaurant.html" class="nav-link">Restaurant</a>
+                <a href="lounge.html" class="nav-link">Lounge</a>
+                <a href="nightclub.html" class="nav-link">Club</a>
+                <a href="hotel.html" class="nav-link">Hotel</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero rooftop-hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Sky High Sophistication</h1>
+            <p class="hero-subtitle">Panoramic views and premium cocktails above the city lights</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Reserve Your Table</button>
+                <button class="light-btn btn btn-secondary">View Cocktail Menu</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <picture>
+                <source srcset="media/hero.jpg" media="(max-width: 768px)">
+                <img src="media/hero-large.jpg" alt="Rooftop bar with city view" class="hero-img-desktop">
+            </picture>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Elevated Experience</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🌃</div>
+                    <h3>360° City Views</h3>
+                    <p>Breathtaking panoramic views of the city skyline from our zenith location</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🍸</div>
+                    <h3>Craft Cocktails</h3>
+                    <p>Artisanal cocktails crafted by award-winning mixologists using premium spirits</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎵</div>
+                    <h3>Live Entertainment</h3>
+                    <p>Jazz performances and DJ sets creating the perfect ambient atmosphere</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌟</div>
+                    <h3>VIP Lounges</h3>
+                    <p>Exclusive private areas for intimate gatherings and special celebrations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signature Cocktails -->
+    <section class="cocktails">
+        <div class="container">
+            <h2 class="section-title">Signature Cocktails</h2>
+            <div class="cocktails-grid">
+                <div class="cocktail-card">
+                    <img src="media/bar/bar-2.webp" alt="Golden Hour Martini" >
+                    <div class="cocktail-info">
+                        <h3>Golden Hour Martini</h3>
+                        <p>Premium gin, elderflower liqueur, and champagne with gold flakes</p>
+                        <span class="price"></span>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <img src="media/bar/bar-4.webp" alt="Timeless Wines" >
+                    <div class="cocktail-info">
+                        <h3>Skyline Manhattan</h3>
+                        <p>Aged bourbon, sweet vermouth, and luxardo cherry with smoke effect</p>
+                        <span class="price"></span>
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <img src="media/sky-view-6.jpg" alt="Rooftop Royale" >
+                    <div class="cocktail-info">
+                        <h3>Rooftop Royale</h3>
+                        <p>Champagne with blackberry liqueur and gold garnish</p>
+                        <span class="price"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2 class="section-title">Atmosphere</h2>
+            <div class="gallery-grid">
+                <img src="media/sky-view-3.jpg" alt="Rooftop evening ambiance" >
+                <img src="media/rp-12.jpg" alt="Lady Chilling at the rooftop" >
+                <img src="https://images.pexels.com/photos/1304540/pexels-photo-1304540.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Cocktails" >
+                <img src="media/rp-6.jpg" alt="City view" >
+                <img src="media/rp-9.jpg" alt="City view" >
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Reserve Your Sky-High Experience</h2>
+                    <p>Join us for unforgettable evenings above the city lights.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h4>Location</h4>
+                            <p>63, Ihama road, GRA, Benin, Nigeria</p>
+                            <div class="map-container">
+                                <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.659952410153!2d5.615893274044582!3d6.308327725628363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d3000dfdac51%3A0x42b49ca675206bda!2sTimeless%20luxury-Benin!5e0!3m2!1sen!2sng!4v1755189213915!5m2!1sen!2sng" 
+                                    width="100%" 
+                                    height="200" 
+                                    style="border:0; border-radius: 8px;" 
+                                    allowfullscreen="" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Reservations</h4>
+                            <p>07086137054</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Hours</h4>
+                            <p>Tuesday - Thursday: 5:00 PM - 1:00 AM<br>
+                               Friday - Saturday: 5:00 PM - 2:00 AM<br>
+                               Sunday: 5:00 PM - 12:00 AM<br>
+                               Closed Mondays</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="rooftop-reservation-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="time" name="time" required>
+                                <option value="">Select Time</option>
+                                <option value="17:00">5:00 PM</option>
+                                <option value="18:00">6:00 PM</option>
+                                <option value="19:00">7:00 PM</option>
+                                <option value="20:00">8:00 PM</option>
+                                <option value="21:00">9:00 PM</option>
+                                <option value="22:00">10:00 PM</option>
+                                <option value="23:00">11:00 PM</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select id="guests" name="guests" required>
+                                <option value="">Party Size</option>
+                                <option value="2">2 Guests</option>
+                                <option value="4">4 Guests</option>
+                                <option value="6">6 Guests</option>
+                                <option value="8">8 Guests</option>
+                                <option value="10">10+ Guests</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Special Requests" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Book Rooftop Table</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+  <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="25" cy="25" r="23" stroke="#FFDF00" stroke-width="2" fill="none"/>
+                            <path d="M15 20h20M15 25h20M15 30h20" stroke="#FFDF00" stroke-width="1.5" stroke-linecap="round"/>
+                            <circle cx="25" cy="25" r="8" stroke="#FFDF00" stroke-width="1" fill="none"/>
+                            <text x="25" y="42" text-anchor="middle" fill="#FFDF00" font-size="6" font-family="serif">TL</text>
+                        </svg>
+                        <span>Timeless Luxury</span>
+                    </div>
+                    <p>Creating extraordinary dining experiences since 2025</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="restaurant.html">Restaurant</a></li>
+                        <li><a href="hotel.html">Hotel</a></li>
+                        <li><a href="lounge.html">Lounge</a></li>
+                        <li><a href="nightclub.html">Nightclub</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>09074056338</li>
+                        <li>info@timelessluxury.com</li>
+                        <li>63, Ihama road, GRA, Benin City, Nigeria</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                            <a href="https://www.instagram.com/timelessluxurybenincity" target="_blank"><i class="fab fa-instagram" style="color: #E4405F;"></i></a>
+                            <a href="https://vt.tiktok.com/ZSSoeafyb" target="_blank"><i class="fab fa-tiktok" style="color: #e9e7e7;"></i></a>
+                            <a href="https://t.snapchat.com/spEiKUmt" target="_blank"><i class="fab fa-snapchat" style="color: #FFFC00;"></i></a>
+                            <a href="https://www.facebook.com/share/r/1C7mgf7an5/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook" style="color: #1877F3;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Timeless Luxury. All rights reserved. | Designed by Elikiba&trade;</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/23409074056338" class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

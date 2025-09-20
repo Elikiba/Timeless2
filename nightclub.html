@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nightclub - Timeless Luxury</title>
+    <link rel="icon" type="image/svg+xml" href="media/logo-t.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="logo-animation">
+                <svg width="80" height="80" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="23" stroke="#FFDF00" stroke-width="2" fill="none" class="logo-circle"/>
+                    <path d="M15 20h20M15 25h20M15 30h20" stroke="#FFDF00" stroke-width="1.5" stroke-linecap="round" class="logo-lines"/>
+                    <circle cx="25" cy="25" r="8" stroke="#FFDF00" stroke-width="1" fill="none" class="logo-inner"/>
+                    <text x="25" y="42" text-anchor="middle" fill="#FFDF00" font-size="6" font-family="serif">TL</text>
+                </svg>
+            </div>
+            <div class="loading-text">
+                <span class="loading-letter">N</span>
+                <span class="loading-letter">I</span>
+                <span class="loading-letter">G</span>
+                <span class="loading-letter">H</span>
+                <span class="loading-letter">T</span>
+                <span class="loading-letter">C</span>
+                <span class="loading-letter">L</span>
+                <span class="loading-letter">U</span>
+                <span class="loading-letter">B</span>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="23" stroke="#FFDF00" stroke-width="2" fill="none"/>
+                    <path d="M15 20h20M15 25h20M15 30h20" stroke="#FFDF00" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="25" cy="25" r="8" stroke="#FFDF00" stroke-width="1" fill="none"/>
+                    <text x="25" y="42" text-anchor="middle" fill="#FFDF00" font-size="6" font-family="serif">TL</text>
+                </svg>
+                <span class="logo-text">Timeless Luxury</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="restaurant.html" class="nav-link">Restaurant</a>
+                <a href="rooftop.html" class="nav-link">Rooftop Bar</a>
+                <a href="lounge.html" class="nav-link">Lounge</a>
+                <a href="hotel.html" class="nav-link">Hotel</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero nightclub-hero">
+        <div class="hero-content">
+            <h1 class="hero-title neon-text">Electric Nights</h1>
+            <p class="hero-subtitle">Where luxury meets the underground - experience nightlife redefined</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary glow-effect">Get VIP Access</button>
+                <button class="btn light-btn btn-secondary">View Events</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <picture>
+                <source srcset="media/club-1.jpg" media="(max-width: 768px)">
+                <img src="media/show-5.jpg" alt="Nightclub atmosphere" class="hero-img-desktop" >
+            </picture>
+            <div class="nightclub-overlay"></div>
+        </div>
+    </section>
+
+    <!-- Live Events Ticker -->
+    <section class="events-ticker">
+        <div class="ticker-container">
+            <div class="ticker-content">
+                <span class="ticker-item">🎵 Tonight: DJ NEXUS Live Set</span>
+                <span class="ticker-item">🍾 VIP Bottle Service Available</span>
+                <span class="ticker-item">🎭 Wednesday: Strippers Night</span>
+                <span class="ticker-item">💎 Premium Sound System</span>
+                <span class="ticker-item">🌟 Celebrity Guest Appearances</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Club Features -->
+    <section class="nightclub-features">
+        <div class="container">
+            <h2 class="section-title neon-glow">The Ultimate Night Experience</h2>
+            <div class="features-grid">
+                <div class="feature-card nightclub-card">
+                    <div class="feature-icon pulse-icon">🎵</div>
+                    <h3>World-Class DJs</h3>
+                    <p style="color: var(--light-gray);">International and local talent spinning the hottest tracks across multiple genres</p>
+                </div>
+                <div class="feature-card nightclub-card">
+                    <div class="feature-icon pulse-icon">💎</div>
+                    <h3>VIP Bottle Service</h3>
+                    <p style="color: var(--light-gray);">Premium spirits and champagne with dedicated table service in exclusive areas</p>
+                </div>
+                <div class="feature-card nightclub-card">
+                    <div class="feature-icon pulse-icon">🌈</div>
+                    <h3>LED Light Shows</h3>
+                    <p style="color: var(--light-gray);">State-of-the-art lighting system creating immersive visual experiences</p>
+                </div>
+                <div class="feature-card nightclub-card">
+                    <div class="feature-icon pulse-icon">🎭</div>
+                    <h3>Themed Nights</h3>
+                    <p style="color: var(--light-gray);">Weekly themed events from masquerade balls to neon parties</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Events -->
+    <section class="upcoming-events">
+        <div class="container">
+            <h2 class="section-title">Upcoming Events</h2>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">15</span>
+                        <span class="month">SEP</span>
+                    </div>
+                    <div class="event-info">
+                        <h3>NEXUS Live</h3>
+                        <p>International DJ sensation bringing electrifying beats</p>
+                        <div class="event-details">
+                            <span class="event-time">10:00 PM - 4:00 AM</span>
+                            <span class="event-price">Entry FREE</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-small">Get Tickets</button>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">30</span>
+                        <span class="month">SEP</span>
+                    </div>
+                    <div class="event-info">
+                        <h3>Masquerade Night</h3>
+                        <p>Elegant mystery meets underground energy</p>
+                        <div class="event-details">
+                            <span class="event-time">9:00 PM - 3:00 AM</span>
+                            <span class="event-price">₦15,000 Entry</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-small">Get Tickets</button>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">
+                        <span class="day">10</span>
+                        <span class="month">OCT</span>
+                    </div>
+                    <div class="event-info">
+                        <h3>Neon Nights</h3>
+                        <p>Glow-in-the-dark party with UV reactive cocktails</p>
+                        <div class="event-details">
+                            <span class="event-time">10:00 PM - 5:00 AM</span>
+                            <span class="event-price">₦40,000 Entry</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-small">Get Tickets</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Signature Cocktails -->
+    <section class="nightclub-cocktails">
+        <div class="container">
+            <h2 class="section-title">Signature Night Cocktails</h2>
+            <div class="cocktails-grid">
+                <div class="cocktail-card glow-card">
+                    <img src="media/rps-4.jpg" alt="Electric Blue" >
+                    <div class="cocktail-info">
+                        <h3>Electric Blue</h3>
+                        <!-- <p>Vodka, blue curaçao, and energy with LED ice cubes</p> -->
+                        <span class="price"></span>
+                    </div>
+                </div>
+                <div class="cocktail-card glow-card">
+                    <img src="media/rps-9.jpg" alt="Neon Nights" >
+                    <div class="cocktail-info">
+                        <h3>Neon Nights</h3>
+                        <!-- <p>Tequila, lime, and UV-reactive tonic with dry ice</p> -->
+                        <span class="price"></span>
+                    </div>
+                </div>
+                <div class="cocktail-card glow-card">
+                    <img src="media/rp-12.jpg" alt="Bass Drop" >
+                    <div class="cocktail-info">
+                        <h3>Bass Drop</h3>
+                        <!-- <p>Whiskey, amaretto, and sound-reactive garnish</p> -->
+                        <span class="price"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VIP Packages -->
+    <section class="vip-packages">
+        <div class="container">
+            <h2 class="section-title">VIP Experiences</h2>
+            <div class="packages-grid">
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Gold VIP</h3>
+                        <div class="package-price">₦99,000<span>/night</span></div>
+                    </div>
+                    <div class="package-features">
+                        <ul>
+                            <li>Reserved VIP table for 4</li>
+                            <li>Premium bottle service</li>
+                            <li>Skip-the-line entry</li>
+                            <li>Dedicated server</li>
+                            <li>VIP restroom access</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-secondary">Book Gold VIP</button>
+                </div>
+                <div class="package-card featured">
+                    <div class="package-header">
+                        <h3>Platinum VIP</h3>
+                        <div class="package-price">₦299,000<span>/night</span></div>
+                    </div>
+                    <div class="package-features">
+                        <ul>
+                            <li>Premium VIP table for 6</li>
+                            <li>Top-shelf bottle service</li>
+                            <li>Private entrance</li>
+                            <li>Personal host</li>
+                            <li>Meet & greet with DJ</li>
+                            <li>Complimentary champagne</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-primary">Book Platinum VIP</button>
+                </div>
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3>Diamond VIP</h3>
+                        <div class="package-price">₦499,000<span>/night</span></div>
+                    </div>
+                    <div class="package-features">
+                        <ul>
+                            <li>Private VIP booth for 8</li>
+                            <li>Ultra-premium spirits</li>
+                            <li>Private security</li>
+                            <li>Exclusive DJ requests</li>
+                            <li>Backstage access</li>
+                            <li>Luxury transportation</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-secondary">Book Diamond VIP</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Club Timeless Atmosphere -->
+    <section class="dj-lineup">
+        <div class="container">
+            <h2 class="section-title">Club Timless Vibes</h2>
+            <div class="dj-grid">
+                <div class="dj-card">
+                    <img src="media/club-night.jpg" alt="Club Timless Vibes" >
+                    <div class="dj-info">
+                        <h3>Club Night</h3>
+                        <p>Join us for an electrifying night of music and dance.</p>
+                        <div class="dj-schedule">Friday & Saturday Nights</div>
+                    </div>
+                </div>
+                <div class="dj-card">
+                    <img src="media/rps-3.jpg" alt="Club Timless Vibes" >
+                    <div class="dj-info">
+                        <h3>Fun Night</h3>
+                        <p>Join us for a night of fun and excitement.</p>
+                        <div class="dj-schedule">Thursday Nights</div>
+                    </div>
+                </div>
+                <div class="dj-card">
+                    <img src="media/show-2.jpg" alt="Club Timless Vibes" >
+                    <div class="dj-info">
+                        <h3>Event Night</h3>
+                        <p>Join us for a night of unforgettable performances and vibes.</p>
+                        <div class="dj-schedule">Sunday Sessions</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact nightclub-contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Join The Night</h2>
+                    <p>Reserve your spot for an unforgettable night of music, energy, and luxury.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h4>Nightclub Location</h4>
+                            <p>63, Ihama road, GRA, Benin, Nigeria</p>
+                            <div class="map-container">
+                                <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.659952410153!2d5.615893274044582!3d6.308327725628363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d3000dfdac51%3A0x42b49ca675206bda!2sTimeless%20luxury-Benin!5e0!3m2!1sen!2sng!4v1755189213915!5m2!1sen!2sng" 
+                                    width="100%" 
+                                    height="200" 
+                                    style="border:0; border-radius: 8px;" 
+                                    allowfullscreen="" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <h4>VIP Reservations</h4>
+                            <p>07086137054</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Club Hours</h4>
+                            <p>Thursday - Saturday: 10:00 PM - 5:00 AM<br>
+                               Sunday: 9:00 PM - 3:00 AM<br>
+                               Closed Monday - Wednesday</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="nightclub-reservation-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="event" name="event" required>
+                                <option value="">Select Event</option>
+                                <option value="regular">Regular Night</option>
+                                <option value="nexus">NEXUS Live</option>
+                                <option value="masquerade">Masquerade Night</option>
+                                <option value="neon">Neon Nights</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select id="vip-package" name="vip-package">
+                                <option value="">VIP Package (Optional)</option>
+                                <option value="gold">Gold VIP - ₦299,000</option>
+                                <option value="platinum">Platinum VIP - ₦599,000</option>
+                                <option value="diamond">Diamond VIP - ₦999,000</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select id="guests" name="guests" required>
+                                <option value="">Party Size</option>
+                                <option value="1">1 Person</option>
+                                <option value="2">2 People</option>
+                                <option value="4">4 People</option>
+                                <option value="6">6 People</option>
+                                <option value="8">8 People</option>
+                                <option value="10">10+ People</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Special Requests or Celebrations" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary glow-effect">Reserve VIP Experience</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="25" cy="25" r="23" stroke="#FFDF00" stroke-width="2" fill="none"/>
+                            <path d="M15 20h20M15 25h20M15 30h20" stroke="#FFDF00" stroke-width="1.5" stroke-linecap="round"/>
+                            <circle cx="25" cy="25" r="8" stroke="#FFDF00" stroke-width="1" fill="none"/>
+                            <text x="25" y="42" text-anchor="middle" fill="#FFDF00" font-size="6" font-family="serif">TL</text>
+                        </svg>
+                        <span>Timeless Luxury</span>
+                    </div>
+                    <p>Creating extraordinary dining experiences since 2025</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="restaurant.html">Restaurant</a></li>
+                        <li><a href="rooftop.html">Rooftop Bar</a></li>
+                        <li><a href="hotel.html">Hotel</a></li>
+                        <li><a href="lounge.html">Lounge</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>09074056338</li>
+                        <li>info@timelessluxury.com</li>
+                        <li>63, Ihama road, GRA, Benin City, Nigeria</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                            <a href="https://www.instagram.com/timelessluxurybenincity" target="_blank"><i class="fab fa-instagram" style="color: #E4405F;"></i></a>
+                            <a href="https://vt.tiktok.com/ZSSoeafyb" target="_blank"><i class="fab fa-tiktok" style="color: #e9e7e7;"></i></a>
+                            <a href="https://t.snapchat.com/spEiKUmt" target="_blank"><i class="fab fa-snapchat" style="color: #FFFC00;"></i></a>
+                            <a href="https://www.facebook.com/share/r/1C7mgf7an5/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook" style="color: #1877F3;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Timeless Luxury. All rights reserved. | Designed by Elikiba&trade;</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/23409074056338" class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

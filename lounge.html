@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Lounge - Timeless Luxury</title>
+    <link rel="icon" type="image/svg+xml" href="media/logo-t.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="logo-animation">
+                <svg width="80" height="80" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="23" stroke="#FFDF00" stroke-width="2" fill="none" class="logo-circle"/>
+                    <path d="M15 20h20M15 25h20M15 30h20" stroke="#FFDF00" stroke-width="1.5" stroke-linecap="round" class="logo-lines"/>
+                    <circle cx="25" cy="25" r="8" stroke="#FFDF00" stroke-width="1" fill="none" class="logo-inner"/>
+                    <text x="25" y="42" text-anchor="middle" fill="#FFDF00" font-size="6" font-family="serif">TL</text>
+                </svg>
+            </div>
+            <div class="loading-text">
+                <span class="loading-letter">L</span>
+                <span class="loading-letter">O</span>
+                <span class="loading-letter">U</span>
+                <span class="loading-letter">N</span>
+                <span class="loading-letter">G</span>
+                <span class="loading-letter">E</span>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="23" stroke="#FFDF00" stroke-width="2" fill="none"/>
+                    <path d="M15 20h20M15 25h20M15 30h20" stroke="#FFDF00" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="25" cy="25" r="8" stroke="#FFDF00" stroke-width="1" fill="none"/>
+                    <text x="25" y="42" text-anchor="middle" fill="#FFDF00" font-size="6" font-family="serif">TL</text>
+                </svg>
+                <span class="logo-text">Timeless Luxury</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="restaurant.html" class="nav-link">Restaurant</a>
+                <a href="rooftop.html" class="nav-link">Rooftop Bar</a>
+                <a href="hotel.html" class="nav-link active">Hotel</a>
+                <a href="nightclub.html" class="nav-link">Club</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bar-hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Elegant Timeless Lounge</h1>
+            <p class="hero-subtitle">Traditional cocktails and timeless elegance in an intimate setting</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary">Reserve Your Spot</button>
+                <button class="light-btn btn btn-secondary">View Drink Menu</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <picture>
+                <source srcset="media/outside-4.jpg" media="(max-width: 768px)">
+                <img src="media/sky-view-2.jpg" alt="Classic bar interior" class="hero-img-desktop" >
+            </picture>
+        </div>
+    </section>
+
+    <!-- Bar Features -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">The Classic Experience</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🥃</div>
+                    <h3>Premium Spirits</h3>
+                    <p>Curated selection of the world's finest whiskeys, cognacs, and rare spirits aged to perfection</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🍹</div>
+                    <h3>Classic Cocktails</h3>
+                    <p>Expertly crafted traditional cocktails using time-honored recipes and techniques</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎼</div>
+                    <h3>Live Jazz</h3>
+                    <p>Intimate live jazz performances creating the perfect atmosphere for sophisticated evenings</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🕯️</div>
+                    <h3>Intimate Ambiance</h3>
+                    <p>Dimly lit, sophisticated setting with plush seating and elegant décor for memorable conversations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Classic Cocktails Menu -->
+    <section class="cocktails">
+        <div class="container">
+            <h2 class="section-title">Signature Classic Cocktails</h2>
+            <div class="cocktails-grid">
+                <div class="cocktail-card">
+                    <img src="media/sky-view-3.jpg" alt="Old Fashioned" >
+                    <div class="cocktail-info">
+                        <h3>Timeless Old Fashioned</h3>
+                        <p>Premium bourbon, house-made bitters, orange zest, and a touch of luxury</p>
+                        <!-- <span class="price">₦18,000</span> -->
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <img src="media/rp-5.jpg" alt="Negroni" >
+                    <div class="cocktail-info">
+                        <h3>Perfect Negroni</h3>
+                        <p>Hendrick's gin, Campari, sweet vermouth with orange peel garnish</p>
+                        <!-- <span class="price">₦15,000</span> -->
+                    </div>
+                </div>
+                <div class="cocktail-card">
+                    <img src="media/rp-4.jpg" alt="Sazerac" >
+                    <div class="cocktail-info">
+                        <h3>Traditional Sazerac</h3>
+                        <p>Rye whiskey, absinthe rinse, sugar cube, and Peychaud's bitters</p>
+                        <!-- <span class="price">₦19,000</span> -->
+                    </div>
+                </div>
+                
+                <div class="cocktail-card">
+                    <img src="media/rp-10.jpg" alt="Whiskey Sour" >
+                    <div class="cocktail-info">
+                        <h3>Whiskey Sour Deluxe</h3>
+                        <p>Bourbon whiskey, fresh lemon juice, simple syrup with egg white foam</p>
+                        <!-- <span class="price">₦14,000</span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bar Offerings -->
+    <section class="offerings">
+        <div class="container">
+            <h2 class="section-title">Premium Spirits & More</h2>
+            <div class="offerings-grid">
+                <div class="offering-card">
+                    <img src="media/bar/bar-4.webp" alt="Whiskey selection" >
+                    <div class="offering-info">
+                        <h3>Whiskey Collection</h3>
+                        <p>Extensive selection of single malts, bourbons, and rare Japanese whiskeys from around the world</p>
+                    </div>
+                </div>
+                <div class="offering-card">
+                    <img src="media/bar/bar-2.webp" alt="Cognac selection" >
+                    <div class="offering-info">
+                        <h3>Fine Cognacs</h3>
+                        <p>Premium cognacs and armagnacs including vintage bottles from renowned French houses</p>
+                    </div>
+                </div>  
+                <div class="offering-card">
+                    <img src="media/food/fried-rice.webp" alt="Bar snacks" >
+                    <div class="offering-info">
+                        <h3>Bar Bites</h3>
+                        <p>Carefully selected artisanal cheeses, charcuterie, and gourmet small plates to complement your drinks</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Happy Hour -->
+    <section class="happy-hour">
+        <div class="container">
+            <div class="happy-hour-content">
+                <div class="happy-hour-text">
+                    <h2>Golden Hour Specials</h2>
+                    <p>Join us for our exclusive Golden Hour, where classic elegance meets exceptional value.</p>
+                    <div class="happy-hour-details">
+                        <div class="happy-hour-item">
+                            <h4>Monday - Friday</h4>
+                            <p>5:00 PM - 7:00 PM</p>
+                        </div>
+                        <div class="happy-hour-item">
+                            <h4>Featured Specials</h4>
+                            <p>Select cocktails at 30% off<br>Premium wine by the glass<br>Artisanal bar bites</p>
+                        </div>
+                        <div class="happy-hour-item">
+                            <h4>Live Entertainment</h4>
+                            <p>Daily jazz trio performances<br>Thursday wine tastings<br>Friday whiskey flights</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="happy-hour-image">
+                    <img src="media/rps-3.jpg" alt="Bar atmosphere" >
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Reserve Your Bar Experience</h2>
+                    <p>Join us for timeless cocktails and sophisticated conversation.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h4>Lounge Location</h4>
+                            <p>63, Ihama road, GRA, Benin City, Nigeria</p>
+                            <div class="map-container">
+                                <iframe 
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.659952410153!2d5.615893274044582!3d6.308327725628363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1040d3000dfdac51%3A0x42b49ca675206bda!2sTimeless%20luxury-Benin!5e0!3m2!1sen!2sng!4v1755189213915!5m2!1sen!2sng" 
+                                    width="100%" 
+                                    height="200" 
+                                    style="border:0; border-radius: 8px;" 
+                                    allowfullscreen="" 
+                                    loading="lazy" 
+                                    referrerpolicy="no-referrer-when-downgrade">
+                                </iframe>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Reservations</h4>
+                            <p>07086137054</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Lounge Hours</h4>
+                            <p>Monday - Thursday: 4:00 PM - 1:00 AM<br>
+                               Friday - Saturday: 4:00 PM - 2:00 AM<br>
+                               Sunday: 4:00 PM - 12:00 AM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="bar-reservation-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="time" name="time" required>
+                                <option value="">Select Time</option>
+                                <option value="16:00">4:00 PM</option>
+                                <option value="17:00">5:00 PM</option>
+                                <option value="18:00">6:00 PM</option>
+                                <option value="19:00">7:00 PM</option>
+                                <option value="20:00">8:00 PM</option>
+                                <option value="21:00">9:00 PM</option>
+                                <option value="22:00">10:00 PM</option>
+                                <option value="23:00">11:00 PM</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select id="guests" name="guests" required>
+                                <option value="">Party Size</option>
+                                <option value="1">1 Person</option>
+                                <option value="2">2 People</option>
+                                <option value="3">3 People</option>
+                                <option value="4">4 People</option>
+                                <option value="6">6 People</option>
+                                <option value="8">8+ People</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select id="seating-preference" name="seating-preference">
+                                <option value="">Seating Preference (Optional)</option>
+                                <option value="bar">Lounge Counter</option>
+                                <option value="booth">Private Booth</option>
+                                <option value="table">Regular Table</option>
+                                <option value="lounge">Lounge Area</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Special Requests" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Reserve Lounge Table</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="25" cy="25" r="23" stroke="#FFDF00" stroke-width="2" fill="none"/>
+                            <path d="M15 20h20M15 25h20M15 30h20" stroke="#FFDF00" stroke-width="1.5" stroke-linecap="round"/>
+                            <circle cx="25" cy="25" r="8" stroke="#FFDF00" stroke-width="1" fill="none"/>
+                            <text x="25" y="42" text-anchor="middle" fill="#FFDF00" font-size="6" font-family="serif">TL</text>
+                        </svg>
+                        <span>Timeless Luxury</span>
+                    </div>
+                    <p>Creating extraordinary dining experiences since 2025</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="restaurant.html">Restaurant</a></li>
+                        <li><a href="rooftop.html">Rooftop Bar</a></li>
+                        <li><a href="hotel.html">Hotel</a></li>
+                        <li><a href="nightclub.html">Nightclub</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>09074056338</li>
+                        <li>info@timelessluxury.com</li>
+                        <li>63, Ihama road, GRA, Benin City, Nigeria</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                            <a href="https://www.instagram.com/timelessluxurybenincity" target="_blank"><i class="fab fa-instagram" style="color: #E4405F;"></i></a>
+                            <a href="https://vt.tiktok.com/ZSSoeafyb" target="_blank"><i class="fab fa-tiktok" style="color: #e9e7e7;"></i></a>
+                            <a href="https://t.snapchat.com/spEiKUmt" target="_blank"><i class="fab fa-snapchat" style="color: #FFFC00;"></i></a>
+                            <a href="https://www.facebook.com/share/r/1C7mgf7an5/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook" style="color: #1877F3;"></i></a>
+                     </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Timeless Luxury. All rights reserved. | Designed by Elikiba&trade;</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/23409074056338" class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

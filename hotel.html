@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Hotel - Timeless Luxury</title>
+    <link rel="icon" type="image/svg+xml" href="media/logo-t.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="logo-animation">
+                <svg width="80" height="80" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="23" stroke="#FFDF00" stroke-width="2" fill="none" class="logo-circle"/>
+                    <path d="M15 20h20M15 25h20M15 30h20" stroke="#FFDF00" stroke-width="1.5" stroke-linecap="round" class="logo-lines"/>
+                    <circle cx="25" cy="25" r="8" stroke="#FFDF00" stroke-width="1" fill="none" class="logo-inner"/>
+                    <text x="25" y="42" text-anchor="middle" fill="#FFDF00" font-size="6" font-family="serif">TL</text>
+                </svg>
+            </div>
+            <div class="loading-text">
+                <span class="loading-letter">H</span>
+                <span class="loading-letter">O</span>
+                <span class="loading-letter">T</span>
+                <span class="loading-letter">E</span>
+                <span class="loading-letter">L</span>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="25" cy="25" r="23" stroke="#FFDF00" stroke-width="2" fill="none"/>
+                    <path d="M15 20h20M15 25h20M15 30h20" stroke="#FFDF00" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="25" cy="25" r="8" stroke="#FFDF00" stroke-width="1" fill="none"/>
+                    <text x="25" y="42" text-anchor="middle" fill="#FFDF00" font-size="6" font-family="serif">TL</text>
+                </svg>
+                <span class="logo-text">Timeless Luxury</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="restaurant.html" class="nav-link">Restaurant</a>
+                <a href="rooftop.html" class="nav-link">Rooftop Bar</a>
+                <a href="lounge.html" class="nav-link">Lounge</a>
+                <a href="nightclub.html" class="nav-link">Nightclub</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero overview-hero">
+        <div class="hero-content">
+            <h1 class="hero-title dynamic-text">Your Sanctuary of Serenity</h1>
+            <p class="hero-subtitle">Discover a world of elegance and comfort in our exquisitely designed rooms and suites.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary pulse-animation">Book Your Stay</button>
+                <button class="btn btn-secondary">Explore Rooms</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <picture>
+                <source srcset="media/outside-4.jpg" media="(max-width: 768px)">
+                <img src="media/outside.jpg" alt="Timeless Luxurious hotel exterior" class="hero-img-desktop">
+            </picture>
+            <div class="image-overlay"></div>
+        </div>  
+    </section>
+
+    <!-- About Hotel Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="fade-in-element">Experience Unparalleled Comfort</h2>
+                    <p class="fade-in-element">Timeless Luxury Hotel offers an oasis of tranquility and sophistication. Our commitment to impeccable service ensures that every moment of your stay is memorable. From our lavishly appointed suites to our personalized concierge services, we redefine the art of hospitality.</p>
+                    <p class="fade-in-element">Nestled in the heart of the city, our hotel provides the perfect base to explore, while offering a serene retreat from the bustle.</p>
+                    <div class="stats">
+                        <div class="stat fade-in-element">
+                            <span class="stat-number counter" data-target="30">0</span>
+                            <span class="stat-label">Luxury Suites</span>
+                        </div>
+                        <div class="stat fade-in-element">
+                            <span class="stat-number counter" data-target="24">0</span>
+                            <span class="stat-label">Hour Concierge</span>
+                        </div>
+                        <div class="stat fade-in-element">
+                            <span class="stat-number">5</span>
+                            <span class="stat-label">Star Service</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="media/hero.jpg" alt="Timeless">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Accommodations Section -->
+    <section class="accommodations">
+        <div class="container">
+            <h2 class="section-title">Our Accommodations</h2>
+            <div class="dishes-grid">
+                <div class="dish-card">
+                    <img src="media/room-2.webp" alt="Deluxe King Room">
+                    <div class="dish-info">
+                        <h3>Deluxe King Room</h3>
+                        <p>A spacious room with a king-sized bed, city views, and a modern marble bathroom. Perfect for solo travelers or couples.</p>
+                        <span class="price">₦30,000 / night</span>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <img src="media/room-3.webp" alt="Executive Suite">
+                    <div class="dish-info">
+                        <h3>Executive Suite</h3>
+                        <p>Features a separate living area, panoramic windows, and exclusive access to our club lounge. Ideal for business and leisure.</p>
+                        <span class="price">₦40,000 / night</span>
+                    </div>
+                </div>
+                <div class="dish-card">
+                    <img src="media/room-4.webp" alt="Presidential Suite">
+                    <div class="dish-info">
+                        <h3>The Presidential Suite</h3>
+                        <p>The pinnacle of luxury. A two-bedroom suite with a private dining room, jacuzzi, and dedicated butler service.</p>
+                        <span class="price">₦50,000 / night</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Amenities Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">World-Class Amenities</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-spa feature-icon" style="color: var(--gold);"></i>
+                    <h3>Spa & Wellness</h3>
+                    <p>Indulge in rejuvenating treatments at our serene spa, featuring saunas, steam rooms, and expert therapists.</p>
+                </div>
+                <!-- <div class="feature-card">
+                    <i class="fas fa-swimming-pool feature-icon" style="color: var(--gold);"></i>
+                    <h3>Rooftop Infinity Pool</h3>
+                    <p>Unwind by our stunning rooftop infinity pool, offering breathtaking city views and poolside service.</p>
+                </div> -->
+                <div class="feature-card">
+                    <i class="fas fa-dumbbell feature-icon" style="color: var(--gold);"></i>
+                    <h3>Fitness Center</h3>
+                    <p>Stay active in our state-of-the-art fitness center, equipped with the latest cardio and strength-training machines.</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-concierge-bell feature-icon" style="color: var(--gold);"></i>
+                    <h3>24/7 Concierge</h3>
+                    <p>Our dedicated concierge team is available around the clock to assist with any request, from reservations to travel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+     <section id="contact" class="contact">
+        <div class="container">
+             <div class="map-prominent" style="margin-bottom: 2.5rem; text-align: center;">
+                <h2 style="font-size:2rem; margin-bottom:1rem;">Find Us</h2>
+                <div style="width:100%; max-width:900px; margin:0 auto; border-radius:16px; overflow:hidden; box-shadow:0 4px 24px rgba(0,0,0,0.12);">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d247.83368173002893!2d5.600322245568683!3d6.350148290595588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1756821758684!5m2!1sen!2sng"
+                        width="100%" height="350" style="border:0; display:block; min-height:200px;" allowfullscreen="" 
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div style="margin-top:1rem; font-size:1.1rem; color: var(--light-gray);">2, Usama Lane, Opp. Mobil Filling Station, Ring Road, Benin City</div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Book Your Stay</h2>
+                    <p>Secure your reservation and prepare for an unparalleled experience in luxury and comfort.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <h4>Reservations</h4>
+                            <p>07086137054</p>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Hotel Address</h4>
+                            <p>2, Usama Lane, Opp. Mobil Filling Station, Ring Road, Benin City</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="hotel-booking-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" id="checkin-date" name="checkin-date" placeholder="Check-in Date" onfocus="(this.type='date')" onblur="(this.type='text')" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" id="checkout-date" name="checkout-date" placeholder="Check-out Date" onfocus="(this.type='date')" onblur="(this.type='text')" required>
+                        </div>
+                        <div class="form-group">
+                            <select id="guests" name="guests" required>
+                                <option value="">Number of Guests</option>
+                                <option value="1">1 Guest</option>
+                                <option value="2">2 Guests</option>
+                                <option value="3">3 Guests</option>
+                                <option value="4">4 Guests</option>
+                            </select>
+                        </div>
+                         <div class="form-group">
+                            <select id="room-type" name="room-type" required>
+                                <option value="">Select Room Type</option>
+                                <option value="deluxe">Deluxe King Room</option>
+                                <option value="executive">Executive Suite</option>
+                                <option value="presidential">Presidential Suite</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Special Requests" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Check Availability</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <svg width="40" height="40" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="25" cy="25" r="23" stroke="#FFDF00" stroke-width="2" fill="none"/>
+                            <path d="M15 20h20M15 25h20M15 30h20" stroke="#FFDF00" stroke-width="1.5" stroke-linecap="round"/>
+                            <circle cx="25" cy="25" r="8" stroke="#FFDF00" stroke-width="1" fill="none"/>
+                            <text x="25" y="42" text-anchor="middle" fill="#FFDF00" font-size="6" font-family="serif">TL</text>
+                        </svg>
+                        <span>Timeless Luxury</span>
+                    </div>
+                    <p>Creating extraordinary dining experiences since 2025</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="restaurant.html">Restaurant</a></li>
+                        <li><a href="rooftop.html">Rooftop Bar</a></li>
+                        <li><a href="lounge.html">Lounge</a></li>
+                        <li><a href="nightclub.html">Nightclub</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>09074056338</li>
+                        <li>0810 293 11459</li>
+                        <li>2, Usama Lane, Opp. Mobil Filling Station, Ring Road, Benin City</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                            <a href="https://www.instagram.com/timelessluxurybenincity" target="_blank"><i class="fab fa-instagram" style="color: #E4405F;"></i></a>
+                            <a href="https://vt.tiktok.com/ZSSoeafyb" target="_blank"><i class="fab fa-tiktok" style="color: #e9e7e7;"></i></a>
+                            <a href="https://t.snapchat.com/spEiKUmt" target="_blank"><i class="fab fa-snapchat" style="color: #FFFC00;"></i></a>
+                            <a href="https://www.facebook.com/share/r/1C7mgf7an5/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook" style="color: #1877F3;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Timeless Luxury. All rights reserved. | Designed by Elikiba&trade;</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/23409074056338" class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
